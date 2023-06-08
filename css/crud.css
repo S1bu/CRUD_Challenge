@@ -1,0 +1,30 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+ 
+ .copy-write{
+    border-top: 4px solid black;
+    /* margin-top: 40%; */
+    text-align: center;
+    font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+}
+.nav-item1{
+    font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    
+}
+.nav-item2{
+    font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+}
+.nav-item3{
+    font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+}
+.container-fluid{
+     
+}
+h1{
+    text-align: center;
+    font-family: Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+}
+
