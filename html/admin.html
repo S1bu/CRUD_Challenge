@@ -15,11 +15,51 @@
     <title>Index-page | Admin-page</title>
 </head>
 <body>
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+    add blog
+  </button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="staticBackdropLabel">Add your blog</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>               
+        <div class="modal-body">
+        <p><b>Title :</b><input type="text" class="title" placeholder="Soccer" style="border: 1px solid black;border-radius: 4px;padding: 10px;margin: 4px;width: 100%;"></p>
+          <br>
+          <p><b>Image :</b><input type="text" class="image" placeholder="img" style="border: 1px solid black;border-radius: 4px;padding: 10px;margin: 4px;width: 100%;"></p>
+          <br>
+          <p><b>Description :</b><input type="text" class="description" placeholder="..." style="border: 1px solid black;border-radius: 4px;padding: 10px;margin: 4px;width: 100%;"></p>
+          <br>
+          <p><b>Content :</b><input type="text" class="content" placeholder="..." style="border: 1px solid black;border-radius: 4px;padding: 10px;margin: 4px;width: 100%;"></p>
+          <br>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary" onclick="add_post()" ondblclick="localStorageDisplay()">Create</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!------------------------------------------------------------------------------------------->
+  <table>
+    <th style="border: 2px  solid black;text-align: center;"> ID</th>
+    <th style="border: 2px  solid black;text-align: center;">Title</th>
+    <th style="border: 2px  solid black;text-align: center;">Description</th>
+    <th style="border: 2px  solid black;text-align: center;">Content</th>
+    <th style="border: 2px  solid black;text-align: center;">Date</th>
+    <th style="border: 2px  solid black;text-align: center;">image</th>
+    <th style="border: 2px  solid black;text-align: center;">edit</th>
+    <th style="border: 2px  solid black;text-align: center;">Delete</th>
+
+<tbody class="blogs" >
  
-
-
-
-    
+</tbody>
+</table>
     <!-- JS file -->
     <script src="../scirpt/Crud.js"></script>
     <!-- BS JS -->

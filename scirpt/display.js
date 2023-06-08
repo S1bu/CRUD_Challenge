@@ -15,27 +15,27 @@ let blogs = [
     item_link: 'fcrfchfucfcf',
 
 },
-{
-    item_image: '',
-    item_name: 'Real GM',
-    item_text: 'everuhieubgitegtryny',
-    item_link: 'fcrfchfucfcf',
+// {
+//     item_image: '',
+//     item_name: 'Real GM',
+//     item_text: 'everuhieubgitegtryny',
+//     item_link: 'fcrfchfucfcf',
 
-},
-{
-    item_image: '',
-    item_name: 'Brix',
-    item_text: 'everuhieubgitegtryny',
-    item_link: 'fcrfchfucfcf',
+// },
+// {
+//     item_image: '',
+//     item_name: 'Brix',
+//     item_text: 'everuhieubgitegtryny',
+//     item_link: 'fcrfchfucfcf',
 
-},
-{
-    item_image: '',
-    item_name: 'Womans Tennis Association',
-    item_text: 'everuhieubgitegtryny',
-    item_link: 'fcrfchfucfcf',
+// },
+// {
+//     item_image: '',
+//     item_name: 'Womans Tennis Association',
+//     item_text: 'everuhieubgitegtryny',
+//     item_link: 'fcrfchfucfcf',
 
-},
+// },
 
 ]
 
